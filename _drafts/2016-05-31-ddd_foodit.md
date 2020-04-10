@@ -4,7 +4,7 @@ title: Embracing DDD at FOODit: an Eric Evans Workshop
 tags: [design, ddd]
 ---
 
-This post was originally published [here](orig) on 2016-05-31.
+_This post was originally published [here](orig) on 2016-05-31._
 
 [orig]: https://medium.com/devs-foodit/embracing-ddd-at-foodit-an-eric-evans-workshop-ca9ba9ff0d5f
 
@@ -15,4 +15,6 @@ In the process of doing so we are trying hard to apply Domain Driven Design prin
 
 [foodit]: http://foodit.com/
 [bbm]: https://en.wikipedia.org/wiki/Big_ball_of_mud
+
+<!--more-->
 
