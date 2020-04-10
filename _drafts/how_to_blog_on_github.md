@@ -7,7 +7,17 @@ tags: [how-to]
 Simple guide
 https://pages.github.com/
 
+Too simple.
+Steps after with jekyll:
+
+1) select theme
+2) themes have their own getting started guides, and conventions, using minimal.
+3) index: list blog posts
+4) create first post
+
+Links:
 Complex docs: https://help.github.com/en/github/working-with-github-pages/about-github-pages
+Markdown: https://daringfireball.net/projects/markdown/syntax
 
 Jekyll
 blogging: https://jekyllrb.com/docs/posts/
