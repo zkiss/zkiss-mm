@@ -1,5 +1,6 @@
 ---
 title: "About"
+permalink: /about/
 ---
 
 I am a software developer since 2007.
