@@ -1,7 +1,8 @@
 ---
 title: "Embracing DDD at FOODit"
 subtitle: An Eric Evans Workshop
-tags: design ddd
+categories: design ddd
+tags: ddd 'layered architecture' orm aggregate 'domain model' 'bounded context'
 ---
 
 _This post was originally published [here][orig] on 2016-05-31._
@@ -162,8 +163,8 @@ public void rerouting() {
 }
 ```
 
-Now let’s assume that Itinerary ensures that the Legs in it are connected and it also has logic
-in it to manage its internals and expose data in a controlled way:
+Now let’s assume that `Itinerary` ensures that the `Leg`s in it are connected and it also has logic
+to manage its internals and expose data in a controlled way:
 
 ```java
 @Test
