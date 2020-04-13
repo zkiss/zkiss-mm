@@ -2,7 +2,7 @@
 title: "Embracing DDD at FOODit"
 subtitle: An Eric Evans Workshop
 toc: true
-categories: design ddd
+categories: Design DDD
 tags: [java, 'ddd', 'layered architecture', orm, aggregate, 'domain model', 'bounded context']
 ---
 
