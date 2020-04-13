@@ -1,5 +1,5 @@
 ---
-title: "How to start a blog"
+title: "How I Created This Blog"
 categories: ['How To', Jekyll]
 tags: how-to jekyll
 ---
