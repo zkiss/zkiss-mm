@@ -1,7 +1,7 @@
 ---
-title: "How I Created This Blog"
+title: "How I Made This Blog"
 categories: ['How To', Jekyll]
-tags: how-to jekyll
+tags: jekyll docker
 ---
 
 Starting a blog or a simple personal site is easy.
@@ -12,7 +12,6 @@ I have picked GitHub Pages, since I am already a GitHub user.
 [net]: https://www.netlify.com/
 [gl]: https://pages.gitlab.io
 [gh]: https://pages.github.com/
-
 
 Simple guide
 https://pages.github.com/

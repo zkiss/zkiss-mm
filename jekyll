@@ -1,0 +1,11 @@
+#!/bin/sh
+
+mkdir -p build
+
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
+export JEKYLL_VERSION=3.8
+/home/zoltan/bin/docker run --rm \
+  --volume="$PWD:/srv/jekyll" \
+  --volume="$PWD/build:/usr/local/bundle" \
+  -it jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll $*
