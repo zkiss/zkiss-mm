@@ -44,3 +44,6 @@ https://jekyllrb.com/docs/themes/
 https://daattali.github.io/beautiful-jekyll
 https://mmistakes.github.io/minimal-mistakes/
 https://pages-themes.github.io/minimal/
+
+Docker
+this site does not work with docker rootless
