@@ -43,54 +43,69 @@ I have picked GitHub Pages, since I am already a GitHub user.
 
 It is possible to create a statically generated website on GitHub Pages in a few simple steps,
 described right there on the landing page.
-All you need to do after that is edit markup files, and they automatically get
+All you need to do after that is edit [markdown][mkd] files, and they automatically get
 published by GitHub as soon as you push them to your git repository.
+
+[mkd]: https://daringfireball.net/projects/markdown/syntax
+
 Pretty neat.
 
 # OK, Now What?
 
 So far so good, this was the easy bit.
-What is not explained in detail is how to actually use Jekyll,
-and you do not get a ready-to-use blog engine either out of the box.
+What is not explained in detail is how to actually use Jekyll.
+You do not get a ready-to-use blog engine out of the box either.
 
-So I needed to understand how Jekyll actually works before being able to write posts;
-what it does and what it does not do.
-How I list my blog posts on the main page.
-How I can make it all look pretty.
+So I needed to understand what Jekyll actually does and what it does not do
+before being able to write posts.
+How does the Hello World static website I've just created turn into a blog? 
+What mechanism do I use to list my blog posts on the main page?
+How can I make it all look pretty?
 
+# Themes
 
+The simple answer to all these questions is [themes](https://jekyllrb.com/docs/themes/).
 
-Simple guide
-https://pages.github.com/
+Themes are not simply skins.
+They _are_ the blog engine.
+They contain significant functionality.
+They normally have their own documentation on how to use them.
+The good thing is, you only need to go through it once,
+after that you just have to write the blog posts.
 
-Too simple.
-Steps after with jekyll:
+The theme I ended up using at the time of writing is [Minimal Mistakes][mm] (MM).
+It was a very close call, I almost picked [Beautiful Jekyll][bj] (BJ) instead.
+I prefer the design of BJ, but MM seems to have a lot more features,
+and I think it is a better piece of engineering; you have to _fork_ the BJ
+repository in order to use it, while MM is ready to be used as a published theme.
+The practical difference this makes, are that
 
-1) select theme
-2) themes have their own getting started guides, and conventions, using minimal.
-3) index: list blog posts
-4) create first post
+1. With MM, the blog repository contains only the blog posts, this is a lot cleaner
+1. Updating to a newer version is a lot simpler (you don't have to merge remote changes)
 
-Links:
-Complex docs: https://help.github.com/en/github/working-with-github-pages/about-github-pages
-Markdown: https://daringfireball.net/projects/markdown/syntax
+[mm]: https://mmistakes.github.io/minimal-mistakes
+[bj]: https://daattali.github.io/beautiful-jekyll
 
-Jekyll
-blogging: https://jekyllrb.com/docs/posts/
-local: https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
+I also contemplated building my own blog engine based on the [minimal][min] theme
+that is promoted on the GitHub Pages theme selector, but I decided I am not a graphic
+designer after all, and I would much prefer spending the time on actual writing instead.
 
-Problem with links on project pages:
-https://github.com/jekyll/jekyll/issues/332
-solution: https://github.com/jekyll/jekyll/issues/332#issuecomment-18952908
-solution 2: https://github.com/jekyll/jekyll/issues/332#issuecomment-72088429
-Most themes hide this issue, but to posts directly from other posts might be affected. 
+[min]: https://pages-themes.github.io/minimal/
 
-Themes:
-https://jekyllrb.com/docs/themes/
+{% capture notice %}
+On a sidenote, I want to mention that a lot of the themes suffer from a common problem,
+when used on GitHub Pages as a 'project page', rather than as a 'user page'.
 
-https://daattali.github.io/beautiful-jekyll
-https://mmistakes.github.io/minimal-mistakes/
-https://pages-themes.github.io/minimal/
+This is caused by the fact that base paths for project pages are not the root domain,
+but they contain the project name as well in the path
+(`https://user.github.io/project``).
+This makes absolute urls point to the wrong path when deployed as a project page.
+More on this subject [here](https://github.com/jekyll/jekyll/issues/332).
+I have decided to host my blog as a user page.
+{% endcapture %}
+<div class="notice--info">{{ notice | markdownify }}</div>
 
-Docker
-this site does not work with docker rootless
+# Testing
+
+Explain feedback loop problem
+jekyll docker
