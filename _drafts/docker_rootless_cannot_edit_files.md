@@ -1,6 +1,6 @@
 ---
 title: "Docker: Permission denied to write files on host"
-categories: [Docker, Problem]
+categories: [Docker, 'How To']
 tags: docker jekyll permission file unix rootless gemfile
 ---
 
@@ -16,3 +16,5 @@ links:
 https://github.com/envygeeks/jekyll-docker/issues/31
 https://docs.docker.com/engine/security/rootless/
 https://docs.docker.com/engine/install/ubuntu/
+
+https://fosterelli.co/privilege-escalation-via-docker.html
