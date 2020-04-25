@@ -11,3 +11,8 @@ TODO past in error output
 
 Reaspon: docker rootless
 It works with normal docker installation (as per ubuntu installation page)
+
+links:
+https://github.com/envygeeks/jekyll-docker/issues/31
+https://docs.docker.com/engine/security/rootless/
+https://docs.docker.com/engine/install/ubuntu/
