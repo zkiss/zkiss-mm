@@ -1,7 +1,7 @@
 ---
 title: "How I Made This Blog"
 categories: ['How To', Jekyll]
-tags: [jekyll, docker, 'jekyll themes', medium, markdown]
+tags: [jekyll, docker, 'jekyll themes', medium, markdown, blogging, 'github pages']
 ---
 
 1. Forked [this][mm-starter] repository. [^1]
