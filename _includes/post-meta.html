@@ -1,0 +1,9 @@
+<!--
+    My own template for showing date with read time for all posts, as a reusable component
+-->
+<p class="page__meta">
+    {% include meta-date.html %}
+    {% if post.read_time or page.read_time %}
+    <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}
+    {% endif %}
+</p>

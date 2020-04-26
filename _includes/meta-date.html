@@ -1,0 +1,9 @@
+<!-- small component to show post date -->
+{% if post.date %}
+    {% assign date = post.date %}
+{% elsif page.date %}
+    {% assign date = page.date %}
+{% endif %}
+{% if date %}
+<i class="far fa-calendar" aria-hidden="true"></i> {{ date | date: "%Y-%m-%d" }}
+{% endif %}
