@@ -120,7 +120,7 @@ I just want it to do whatever it wants in its own isolated container,
 using resources on the host on behalf of my own user.
 
 So if I decide to mount `/` to a docker container, the container should see it,
-but it should not be forbidden to read files my user cannot either,
+but it should be forbidden to read files my user cannot either,
 or make any changes my user cannot make.
 It should however be allowed to modify files I also can,
 when they are visible via a mounted path.
