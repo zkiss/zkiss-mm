@@ -15,6 +15,8 @@ tags: [jekyll, docker, 'jekyll themes', medium, markdown, blogging, 'github page
 
 [mm-starter]: https://github.com/mmistakes/mm-github-pages-starter
 
+<!--more-->
+
 # Requirements
 
 I couldn't just start blogging on [Medium](https://medium.com).
