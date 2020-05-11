@@ -13,3 +13,12 @@ How to roll out
 how to write plugin to share settings
 - check out beekeeper gradle plugin https://github.com/beekpr/beekeeper-gradle-plugins
     https://github.com/beekpr/beekeeper-gradle-plugins/blob/master/beekeeper-formatter-plugin/src/main/java/io/beekeeper/formatter/FormatterPlugin.java
+
+# git merge
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+```
+$ git merge reformat-commit-id
+$ git add merged-files
+$ git commit
+```
