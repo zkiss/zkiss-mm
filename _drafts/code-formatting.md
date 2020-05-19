@@ -1,7 +1,7 @@
 ---
 title: "Reformat Your Codebase Today!"
-categories: [Docker, 'How To']
-tags: docker jekyll permission file unix rootless gemfile bundle homebrew
+categories: [Coding, 'How To']
+tags: code formatting gradle
 ---
 
 
