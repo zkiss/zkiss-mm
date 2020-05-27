@@ -4,7 +4,8 @@ categories: [Coding, 'How To']
 tags: code formatting gradle
 ---
 
-I believe that having a well-defined, uniform, consistent coding style is important.
+I believe that having a well-defined, uniform, consistent set of
+coding conventions is important.
 With consistency, comes efficiency; developers can navigate the code at a glance.
 When the same practices are followed everywhere, it takes less effort to understand
 how the code works, because developers can think in terms of templates,
@@ -14,14 +15,14 @@ they do not have to read every line.
 
 # Formatting
 
-One aspect of coding style is the set of formatting rules that govern how the code
+One aspect of coding conventions are the formatting rules that govern how the code
 looks like.
 While formatting is mainly aesthetics, when it is the same everywhere,
 it does have all the benefits of consistency.
 It makes the code easier to read, because it controls its visual appearance.
 It makes each building block of the code look similar to all the other
 blocks of the same kind.
-Readers can therefore rely on the outline of the code to communicate its structure,
+The outline of the code therefore communicates its structure,
 which makes it a lot easier to find things.
 
 A basic example is indentation.
@@ -34,6 +35,8 @@ nested block in its entirety and tracking where it ends yourself.
 
 While cases where indentation rules are not followed are admittedly less common
 in my experience, I _have_ come across it.
+
+
 
 ```java
 int leet(boolean advanced) {
