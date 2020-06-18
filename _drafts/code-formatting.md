@@ -7,8 +7,9 @@ tags: code formatting gradle
 I believe that having a well-defined, uniform, consistent set of
 coding conventions is important.
 With consistency, comes efficiency; developers can navigate the code at a glance.
-When the same practices are followed everywhere, it takes less effort to understand
-how the code works, because developers can think in terms of templates,
+When the same practices are followed everywhere,
+it takes less effort to understand how the code works,
+because developers can think in terms of templates,
 they do not have to read every line.
 
 <!--more-->
@@ -33,8 +34,8 @@ just by following an imaginary vertical line downwards.
 If no such rule is enforced, you have no other option than reading the
 nested block in its entirety and tracking where it ends yourself.
 
-While cases where indentation rules are not followed are admittedly less common
-in my experience, I _have_ come across it.
+While cases, where indentation rules are _not_ followed,
+are admittedly less common in my experience, I _have_ come across some.
 
 ```java
 int leet(boolean advanced) {
@@ -47,6 +48,8 @@ int leet(boolean advanced) {
     return leet;
 }
 ```
+
+_Please note the misleading indentation in the code block above._ 
 
 An example that I do commonly see in codebases is the lack of conventions
 for method (or constructor) parameter declarations.
