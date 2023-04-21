@@ -12,8 +12,8 @@ tags: API evolution
 # Outline
 
 1. Backwards compatibility in general
-    1. Definition: api change does not break existing api use cases
-    1. Clients must be notified and must cooperate within notice period
+    1. Definition: api change does not break existing api use cases within a notice period
+    1. In return, clients must be notified and must cooperate within notice period
     1. Rules
         1. API Outputs (Models)
             1. old semantics must be kept (during notice period)
