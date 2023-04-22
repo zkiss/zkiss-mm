@@ -72,7 +72,7 @@ The autonomous AI failed to deliver any code and attempted to get out of doing t
 by running scripts that didn't exist.
 If anything, this experience has taught me the importance of human intervention when it comes to developing software.
 
-**Disclaimer**: No code was written in the writing of this post.
+**Disclaimer**: No code was produced in the writing of this post.
 {: .notice--info}
 
 # How I Used AI
