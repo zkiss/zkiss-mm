@@ -88,7 +88,7 @@ I believe without a doubt that a lot of things will change in the world because 
 Exactly because of this is why I find it worthy to demonstrate that the technology
 (that is available to the masses at least) is still far from perfect.
 
-This experiment did not use GPT 4, which I am sure would have done better at this,
+This experiment did not use GPT 4, which I am sure would have done a lot better at this,
 and I would be very interested to see what _it_ can do in a similar scenario. 
 
 # Auto-GPT Logs
